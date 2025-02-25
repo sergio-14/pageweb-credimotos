@@ -140,7 +140,8 @@ body {
     color: #f3ecec;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 10px;
+    font-size: 12px;
+   
     
 }
 
@@ -149,8 +150,19 @@ body {
     color: #f3ecec;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 10px;
+    font-size: 12px;
+    text-align: center;    
 }
+
+.bt3{
+    background-color: rgba(175, 175, 175, 0.336);
+    color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;   
+}
+
 .bt1:hover {
     background-color: rgb(4, 16, 22);
     color: #ffffff;
@@ -161,8 +173,14 @@ body {
     color: #ffffff;
 }
 
+.bt3:hover {
+    background-color: rgba(175, 175, 175, 0.432);
+    color: #000000;
+}
+
 .bg-imagen {
     position: relative;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -194,8 +212,8 @@ body {
 }
 
 @keyframes slideShow {
-    20%, 40% { opacity: 1; }  /* Imagen visible */
-    60%, 100% { opacity: 0; } /* Imagen se desvanece gradualmente */
+    20%, 40% { opacity: 1; }  
+    60%, 100% { opacity: 0; } 
 }
 
 .body-fixed {
